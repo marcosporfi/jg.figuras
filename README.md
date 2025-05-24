@@ -1,6 +1,6 @@
 import turtle
 
-# Função para desenhar um quadrado maior
+
 def desenhar_quadrado(cor):
     turtle.fillcolor(cor)
     turtle.begin_fill()
@@ -9,7 +9,7 @@ def desenhar_quadrado(cor):
         turtle.left(90)
     turtle.end_fill()
 
-# Função para desenhar um triângulo maior
+
 def desenhar_triangulo(cor):
     turtle.fillcolor(cor)
     turtle.begin_fill()
@@ -18,14 +18,14 @@ def desenhar_triangulo(cor):
         turtle.left(120)
     turtle.end_fill()
 
-# Função para desenhar um círculo maior
+
 def desenhar_circulo(cor):
     turtle.fillcolor(cor)
     turtle.begin_fill()
     turtle.circle(100)  # Raio aumentado
     turtle.end_fill()
 
-# Função principal
+
 def main():
     print("Selecione uma forma:")
     print("1 - Quadrado")
